@@ -2,3 +2,10 @@
 @use 'base/mixins' as m;
 
 
+.sociales{
+    margin-top: 5rem 0;
+
+    @include m.tablet { 
+        margin: 0;
+    }
+}
